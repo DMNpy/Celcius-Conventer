@@ -1,0 +1,30 @@
+.jumbotron {
+    text-align: center;
+    margin: 50px auto;
+    color: green;
+}
+
+
+#kel, #fah {
+    margin: 5px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#kel:hover, #fah:hover {
+ 
+  color: salmon;
+}
+
+.baslik {
+    margin: 200px auto;
+    will-change: filter;
+    transition: filter 200ms;
+    
+}
+
+.baslik:hover {
+    color: salmon;
+    filter: drop-shadow(16px 16px 20px rgb(235, 127, 4));
+
+}
